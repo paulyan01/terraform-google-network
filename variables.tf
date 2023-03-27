@@ -5,12 +5,12 @@
 
 variable "project" {
   description = "The name of the GCP Project where all resources will be launched."
-  type        = string
+  Default        = "test-01-12345"
 }
 
 variable "region" {
   description = "The Region in which all GCP resources will be launched."
-  type        = string
+  default        = "US"
 }
 
 # ---------------------------------------------------------------------------------------------------------------------
