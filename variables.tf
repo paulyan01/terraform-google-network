@@ -3,14 +3,14 @@
 # These parameters must be supplied when consuming this module.
 # ---------------------------------------------------------------------------------------------------------------------
 
-variable "project" {"Test 01"
+variable "project" {
   description = "The name of the GCP Project where all resources will be launched."
-  type        = string
+  type        ="Test 01"
 }
 
-variable "region" {"northamerica-northeast1"
+variable "region" {
   description = "The Region in which all GCP resources will be launched."
-  type        = string
+  type        ="northamerica-northeast1"
 }
 
 # ---------------------------------------------------------------------------------------------------------------------
