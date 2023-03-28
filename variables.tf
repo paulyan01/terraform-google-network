@@ -5,7 +5,7 @@
 
 variable "project" {
   description = "The name of the GCP Project where all resources will be launched."
-  Default        = "test-01-12345"
+  Default        = "Test 01"
 }
 
 variable "region" {
