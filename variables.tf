@@ -10,7 +10,7 @@ variable "project" {
 
 variable "region" {
   description = "The Region in which all GCP resources will be launched."
-  default        = "US"
+  Default        = "northamerica-northeast1"
 }
 
 # ---------------------------------------------------------------------------------------------------------------------
