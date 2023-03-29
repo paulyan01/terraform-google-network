@@ -13,7 +13,7 @@ terraform {
 
 resource "google_compute_network" "vpc" {
   name    = "${var.name_prefix}-network"
-  project = var.project
+  project = "Test-01-12345"
 
   # Always define custom subnetworks- one subnetwork per region isn't useful for an opinionated setup
   auto_create_subnetworks = "false"
